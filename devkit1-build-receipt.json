@@ -8,13 +8,10 @@
   "scaffold": {
     "status": "COMPLETED",
     "repo_dir": "C:\\OTHRYS\\repos\\uuidgen",
-    "files_count": 16
+    "files_count": 3190
   },
   "cognitive_synthesize": {
-    "status": "COMPLETED",
-    "attempts": 1,
-    "chamber": "chamber-1-nvidia-nim",
-    "model": "nvidia/nemotron-3-ultra-550b-a55b",
+    "status": "ALREADY_SYNTHESIZED",
     "tool_file": "C:\\OTHRYS\\repos\\uuidgen\\src\\tool.ts",
     "test_file": "C:\\OTHRYS\\repos\\uuidgen\\tests\\tool.test.ts"
   },
@@ -41,6 +38,26 @@
     "tests_passed": true,
     "build_succeeded": true,
     "dist_compiled": true,
-    "test_output": "[2mms\u001b[22m\u001b[39m\n\n\u001b[2m Test Files \u001b[22m \u001b[1m\u001b[32m2 passed\u001b[39m\u001b[22m\u001b[90m (2)\u001b[39m\n\u001b[2m      Tests \u001b[22m \u001b[1m\u001b[32m7 passed\u001b[39m\u001b[22m\u001b[90m (7)\u001b[39m\n\u001b[2m   Start at \u001b[22m 02:43:23\n\u001b[2m   Duration \u001b[22m 1.79s\u001b[2m (transform 33ms, setup 0ms, collect 57ms, tests 4ms, environment 495ms, prepare 92ms)\u001b[22m\n\n"
+    "test_output": "[2mms\u001b[22m\u001b[39m\n\n\u001b[2m Test Files \u001b[22m \u001b[1m\u001b[32m2 passed\u001b[39m\u001b[22m\u001b[90m (2)\u001b[39m\n\u001b[2m      Tests \u001b[22m \u001b[1m\u001b[32m7 passed\u001b[39m\u001b[22m\u001b[90m (7)\u001b[39m\n\u001b[2m   Start at \u001b[22m 02:45:23\n\u001b[2m   Duration \u001b[22m 1.73s\u001b[2m (transform 34ms, setup 0ms, collect 41ms, tests 4ms, environment 492ms, prepare 93ms)\u001b[22m\n\n"
+  },
+  "git_publish": {
+    "status": "COMPLETED",
+    "repo": "vtcbelgium/uuidgen",
+    "gh_authenticated": true
+  },
+  "cloudflare_deploy": {
+    "status": "COMPLETED",
+    "pages_host": "9445a7a1.uuidgen-3c3.pages.dev",
+    "deployed": true
+  },
+  "dns_domain": {
+    "status": "COMPLETED",
+    "dns_provisioned": true,
+    "edge_verified_live": false,
+    "live_url": "https://uuidgen.othrys.be/"
+  },
+  "fleet_register": {
+    "status": "COMPLETED",
+    "fleet_file": "C:\\OTHRYS\\repos\\othrys-web\\lib\\sites.ts"
   }
 }

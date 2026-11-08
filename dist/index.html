@@ -7,7 +7,7 @@
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <title>UUID Generator — 100% Private Client-Side Utility | OTHRYS Fleet</title>
   <meta name="description" content="Cryptographically secure RFC4122 v4 UUID generator running 100% in browser 100% private and runs entirely in your browser with zero server uploads." />
-  <link rel="canonical" href="https://uuidgen.othrys.be/" />
+  <link rel="canonical" href="https://uuidgen.othrys.be/" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -25,13 +25,38 @@
     }
   }
   </script>
-  <meta name="robots" content="index, follow" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="UUID Generator — OTHRYS Fleet" />
-  <meta property="og:description" content="Cryptographically secure RFC4122 v4 UUID generator running 100% in browser" />
-  <meta property="og:url" content="https://uuidgen.othrys.be/" />
-  <meta property="og:image" content="https://uuidgen.othrys.be/og-image.svg" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are my files or text uploaded to a remote server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. All computation occurs 100% client-side in your browser JavaScript thread. No payload data is ever transmitted across the network."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does UUID Generator use advertising or behavioral trackers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Never. OTHRYS tools have zero tracking pixels, zero analytics scripts, and set zero third-party cookies."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use this tool offline?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! Once loaded, UUID Generator executes without any network dependency. You can safely disconnect your internet connection and keep using it."
+        }
+      }
+    ]
+  }
+  </script>
   <meta name="robots" content="index, follow" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="UUID Generator — OTHRYS Fleet" />
@@ -237,6 +262,6 @@
   </dialog>
 
   <div id="toast-container" class="toast-container" role="region" aria-live="polite"></div>
-
+
 </body>
 </html>
