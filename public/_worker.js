@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const ua = (request.headers.get("user-agent") || "").toLowerCase();
-    if (ua.includes("curl") || ua.includes("wget") || ua.includes("httpie")) {
+    if ((ua.includes("curl") || ua.includes("wget") || ua.includes("httpie")) && new URL(request.url).pathname === "/") {
       const url = new URL(request.url);
       const count = Math.min(Math.max(parseInt(url.searchParams.get("n") || "1"), 1), 100);
       let uuids = [];
