@@ -1,0 +1,7 @@
+Name: UUID Generator
+URL: https://uuidgen.othrys.be/
+Description: A simple, privacy-focused UUID generator that runs entirely in your browser with no server-side processing.
+LLMs-Txt: https://uuidgen.othrys.be/llms.txt
+Sitemap: https://uuidgen.othrys.be/sitemap.xml
+Protocol: public-read-only
+Privacy: zero-tracking-cookies, local-browser-execution, zero-cloud-uploads
