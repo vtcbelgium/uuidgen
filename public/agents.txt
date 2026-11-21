@@ -1,6 +1,6 @@
 Name: UUID Generator
 URL: https://uuidgen.othrys.be/
-Description: A simple, privacy-focused UUID generator that runs entirely in your browser with no server-side processing.
+Description: Cryptographically secure RFC4122 v4 UUID generator running 100% locally in your browser with zero server uploads.
 LLMs-Txt: https://uuidgen.othrys.be/llms.txt
 Sitemap: https://uuidgen.othrys.be/sitemap.xml
 Protocol: public-read-only
